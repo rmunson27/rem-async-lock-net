@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Identity">
+    <PackageId>Rem.Threading.AsyncLock</PackageId>
+    <RootNamespace>Rem.Threading</RootNamespace>
+    <Version>1.0</Version>
+    <Description>A simple utility that provides a lock that can be obtained asynchronously.</Description>
+  </PropertyGroup>
+
+  <PropertyGroup Label="Targets">
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Label="Language">
+    <LangVersion>11.0</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+</Project>
