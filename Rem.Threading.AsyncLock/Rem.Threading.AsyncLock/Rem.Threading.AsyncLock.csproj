@@ -3,8 +3,15 @@
   <PropertyGroup Label="Identity">
     <PackageId>Rem.Threading.AsyncLock</PackageId>
     <RootNamespace>Rem.Threading</RootNamespace>
-    <Version>1.0</Version>
+    <Version>1.0.0.1</Version>
     <Description>A simple utility that provides a lock that can be obtained asynchronously.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <WebPage>https://github.com/rmunson27/rem-async-lock-net</WebPage>
+  </PropertyGroup>
+
+  <PropertyGroup Label="Documentation">
+    <DocumentationFile>bin\Release\Rem.Threading.AsyncLock.xml</DocumentationFile>
+    <PackageReleaseNotes>Added missing documentation and web page.</PackageReleaseNotes>
   </PropertyGroup>
 
   <PropertyGroup Label="Targets">
